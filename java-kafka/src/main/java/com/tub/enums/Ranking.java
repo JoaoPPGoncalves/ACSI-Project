@@ -1,0 +1,15 @@
+package com.tub.enums;
+
+public enum Ranking {
+    INICIADO,
+    NOVATO,
+    INICIANTE,
+    VIAJANTE,
+    EXPLORADOR,
+    AVENTUREIRO,
+    VIAJANTE_EXPERIENTE,
+    VIAJANTE_dEDICADO,
+    VIAJANTE_FIEL,
+    VIAJANTE_ELITE,
+    MESTRE_DAS_VIAGENS
+}

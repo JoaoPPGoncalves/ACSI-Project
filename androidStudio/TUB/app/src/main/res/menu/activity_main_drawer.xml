@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Acessos">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home_icon"
+                    android:title="@string/menu_home"/>
+
+                <item
+                    android:id="@+id/nav_qr_code"
+                    android:icon="@drawable/qr_code_icon"
+                    android:title="@string/menu_qr_code"/>
+
+                <item
+                    android:id="@+id/nav_historico"
+                    android:icon="@drawable/history_icon"
+                    android:title="@string/menu_historia_viagens"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Perfil">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:icon="@drawable/dadospessoais"
+                    android:title="@string/menu_perfil" />
+
+            </menu>
+        </item>
+        />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Sair">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+                />
+            </menu>
+        </item>
+    </group>
+</menu>
