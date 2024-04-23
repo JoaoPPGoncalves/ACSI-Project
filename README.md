@@ -1,5 +1,4 @@
-Este repositorio abriga todo o código e todas as pastas referentes ao trabalho da unidade curricular Análise e Conceção de Sistemas de Informação.
-
+Project developed for the subject of Information Systems Analysis and Design in the 1st Year of the Master's Degree in Information Systems Engineering and Management in the 1st semester of 2023/2024
 ## Arquitetura
 - Pipes and Filters com REST
 - Java Spring para hospedar o kafka(Pipes and filters) ["java-kafka"]
